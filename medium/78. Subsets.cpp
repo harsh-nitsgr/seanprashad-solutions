@@ -1,8 +1,8 @@
 //leetcode.com/problems/subsets
-// The simple approach to this problem is backtracking 
-// We will start from first element of the array and make two recurrsive calls
-// First if we include that particular element and second not including that element
-// When we have traversed through all elements we can just pust answer in an answer array and return it
+// The simple approach to this problem is backtracking.
+// We will start from first element of the array and make two recurrsive calls.
+// First if we include that particular element and second not including that element.
+// When we have traversed through all elements we can just put answer in an answer array and return it.
 
 class Solution {
 public:
