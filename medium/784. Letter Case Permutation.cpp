@@ -28,7 +28,7 @@ public:
 // TC:O(2^n)
 
 // Here is the recurrsive solution
-// Calling recurssion everytime no matter it is a leter or uppercase or lowercase
+// Calling recurssion everytime no matter it is a number or uppercase or lowercase
 // If any char is alphabet so now again call recurrsion by changing upper to lower or lower to upper
 
 class Solution {
