@@ -4,6 +4,19 @@
 // First if we include that particular element and second not including that element.
 // When we have traversed through all elements we can just put answer in an answer array and return it.
 
+// The recursion tree will look like this
+
+//                                      [1,2,3]
+//                                       /     \
+//                                      /       \
+//                                   [1]          []
+//                                   / \          /  \
+//                              [1,2]   [1]      [2]   []
+//                              / \     / \       / \  / \
+//                            /    \  [1,3][1]   /   \ [3][]   
+//                       [1,2,3] [1,2]        [2,3] [2]
+
+
 class Solution {
 public:
     vector<vector<int>>ans;
